@@ -1,0 +1,43 @@
+
+**************************************************************************************************
+lec 6
+Dec 4th lecture 
+Topic: Word embedding & Preprocessing
+
+1. OHE (one hot encoding)
+2. BOW (bag of words)
+3. Tf-IDF ()
+4. N-grams
+
+
+***************************************************************************************
+Lec 7
+
+Dec 7 lecture 
+Time: 8 PM IST
+
+-> TF-IDF 
+
+    Term frequency -> Importance of word in given sentence
+    Inverse document frequency -> uniqueness of word across all the sentences
+    document , D == Sentence 
+
+    * TF(word, D) = (occurence of word in given doc/sentence)/total word in given sentence
+    * IDF = log{(No. of total sentence/document)/( No. of sentence with the given word)}
+
+    TF-IDF ---> we are reducing the weightage of more common word and giving importance to unique (rare)
+                words
+                
+vocab - unique words from the data
+
+*********************************************************************
+
+    Dec 8 
+    Time: 8 PM IST
+
+    1- skipgram
+    2- Cbow
+    3- Custom BOW
+    4- Sentence embedding {langchain, hugging, sentence transform, transformer}
+
+    
